@@ -1,0 +1,28 @@
+{
+  "name": "nexo-wa-baileys-engine",
+  "version": "1.0.0",
+  "description": "WhatsApp engine for Nexo: Baileys behind a versioned message protocol, run as an Electron utility process.",
+  "private": true,
+  "type": "module",
+  "license": "GPL-3.0-only",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DouglasVulcano/nexo-wa-engine.git"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "pack": "node build.mjs && node pack.mjs"
+  },
+  "dependencies": {
+    "baileys": "7.0.0-rc14"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "esbuild": "^0.28.1",
+    "typescript": "^5.7.0"
+  },
+  "overrides": {
+    "libsignal": "6.0.0"
+  }
+}
