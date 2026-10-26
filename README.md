@@ -2,9 +2,11 @@
 
 WhatsApp engine for [Nexo](https://nexofordev.com). It wraps [Baileys](https://github.com/WhiskeySockets/Baileys) (pinned) and runs as an Electron `utilityProcess`, talking to Nexo only through the versioned message protocol below.
 
+Copyright (C) 2026 Douglas Vulcano.
+
 **License: GPL-3.0-only.** The bundle includes `libsignal` (GPL-3.0). Nexo itself is proprietary and does not contain this code: the app downloads the release asset of this repository on first use and starts it as a separate process. The full license text is in [LICENSE](LICENSE); third-party notices (every bundled dependency and its license text) are in `THIRD_PARTY_LICENSES.txt` inside each release.
 
-This is an unofficial client of the WhatsApp Web protocol. It can break when WhatsApp changes the protocol and the linked number can be restricted; use is meant for 1:1 conversations with people who already talk to you.
+This is an unofficial client of the WhatsApp Web protocol. It can break when WhatsApp changes the protocol and the linked number can be restricted; use is meant for 1:1 conversations with people who already talk to you. Using an unofficial client may violate the WhatsApp Terms of Service. This project is not affiliated with, sponsored or endorsed by WhatsApp or Meta; WhatsApp is a trademark of Meta Platforms, Inc.
 
 ## Build
 
